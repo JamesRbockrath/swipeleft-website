@@ -16,15 +16,22 @@ export default function RootLayout({
     <html lang="en">
       <body className="font-sans">
         <header className="bg-white/95 backdrop-blur shadow-sm sticky top-0 z-50">
-          <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Primary">
-            <div className="flex justify-between items-center h-40 sm:h-48">
-              {/* Logo (2x size) */}
+          <nav
+            className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+            aria-label="Primary"
+          >
+            <div className="flex justify-between items-center h-48 sm:h-56">
+              {/* Logo (50% larger) */}
               <div className="flex items-center">
-                <a href="/" className="flex items-center" aria-label="swipeleft ai home">
+                <a
+                  href="/"
+                  className="flex items-center"
+                  aria-label="swipeleft ai home"
+                >
                   <img
                     src="/logo.png"
                     alt="swipeleft ai — contractors for consulting firms"
-                    className="h-32 sm:h-36 md:h-40 w-auto"
+                    className="h-48 sm:h-54 md:h-60 w-auto"
                   />
                 </a>
               </div>
@@ -67,10 +74,11 @@ export default function RootLayout({
             <div className="grid md:grid-cols-3 gap-10 mb-10">
               <div>
                 <div className="mb-6">
+                  {/* Footer Logo (50% larger) */}
                   <img
                     src="/logo.png"
                     alt="swipeleft ai"
-                    className="h-24 sm:h-28 md:h-32 w-auto brightness-0 invert"
+                    className="h-36 sm:h-42 md:h-48 w-auto brightness-0 invert"
                   />
                 </div>
                 <p className="text-gray-400">
@@ -82,12 +90,18 @@ export default function RootLayout({
                 <h4 className="font-semibold mb-4">Quick Links</h4>
                 <ul className="space-y-2 text-gray-400">
                   <li>
-                    <a href="#how-it-works-firms" className="hover:text-white transition">
+                    <a
+                      href="#how-it-works-firms"
+                      className="hover:text-white transition"
+                    >
                       How It Works
                     </a>
                   </li>
                   <li>
-                    <a href="#opportunities" className="hover:text-white transition">
+                    <a
+                      href="#opportunities"
+                      className="hover:text-white transition"
+                    >
                       Open Roles
                     </a>
                   </li>
@@ -103,7 +117,10 @@ export default function RootLayout({
                 <h4 className="font-semibold mb-4">Contact</h4>
                 <p className="text-gray-400">Austin, TX</p>
                 <p className="text-gray-400">
-                  <a href="mailto:info@swipeleft.ai" className="hover:text-white transition">
+                  <a
+                    href="mailto:info@swipeleft.ai"
+                    className="hover:text-white transition"
+                  >
                     info@swipeleft.ai
                   </a>
                 </p>
