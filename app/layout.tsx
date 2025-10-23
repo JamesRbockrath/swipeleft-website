@@ -17,20 +17,20 @@ export default function RootLayout({
       <body className="font-sans">
         <nav className="bg-white shadow-sm sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-28 sm:h-32">
-              {/* Logo */}
+            <div className="flex justify-between items-center h-40 sm:h-48">
+              {/* Logo (2x size) */}
               <div className="flex items-center">
                 <a href="/" className="flex items-center">
                   <img
                     src="/logo.png"
                     alt="SwipeLeft AI - Recruiting & Staffing"
-                    className="h-16 sm:h-20 md:h-24 w-auto"
+                    className="h-32 sm:h-36 md:h-40 w-auto"
                   />
                 </a>
               </div>
 
               {/* Navigation */}
-              <div className="hidden md:flex space-x-8">
+              <div className="hidden md:flex space-x-10">
                 <a
                   href="#how-it-works"
                   className="text-gray-700 hover:text-green-600 transition font-medium"
@@ -62,15 +62,15 @@ export default function RootLayout({
 
         {children}
 
-        <footer className="bg-gray-900 text-white py-12">
+        <footer className="bg-gray-900 text-white py-14">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid md:grid-cols-3 gap-8 mb-8">
+            <div className="grid md:grid-cols-3 gap-10 mb-10">
               <div>
-                <div className="mb-4">
+                <div className="mb-6">
                   <img
                     src="/logo.png"
                     alt="SwipeLeft AI"
-                    className="h-12 sm:h-14 md:h-16 w-auto brightness-0 invert"
+                    className="h-24 sm:h-28 md:h-32 w-auto brightness-0 invert"
                   />
                 </div>
                 <p className="text-gray-400">
