@@ -43,7 +43,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* How It Works — Consulting Firms */}
+      {/* How It Works - Consulting Firms */}
       <section id="how-it-works-firms" className="bg-gray-50">
         <div className="section-container">
           <div className="text-center mb-16">
@@ -77,7 +77,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* How It Works — Contractors */}
+      {/* How It Works - Contractors */}
       <section id="how-it-works-contractors" className="bg-gray-50">
         <div className="section-container">
           <div className="text-center mb-16">
@@ -116,7 +116,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Value Props — Contractors */}
+      {/* Value Props - Contractors */}
       <section id="contractors" className="bg-white">
         <div className="section-container">
           <div className="max-w-4xl mx-auto">
@@ -164,7 +164,7 @@ export default function Home() {
               <p className="text-gray-600 mb-4">Enterprise AI advisory + delivery</p>
               <div className="text-sm text-gray-500 mb-4">
                 <div>📍 Remote</div>
-                <div>💰 $150–200/hr</div>
+                <div>💰 $150-200/hr</div>
               </div>
               <a href="#join" className="text-green-600 font-semibold hover:text-green-700">Apply Now →</a>
             </div>
@@ -175,7 +175,7 @@ export default function Home() {
               <p className="text-gray-600 mb-4">Platform build for a global SI</p>
               <div className="text-sm text-gray-500 mb-4">
                 <div>📍 Hybrid · Austin, TX</div>
-                <div>💰 $120–160/hr</div>
+                <div>💰 $120-160/hr</div>
               </div>
               <a href="#join" className="text-green-600 font-semibold hover:text-green-700">Apply Now →</a>
             </div>
@@ -186,7 +186,7 @@ export default function Home() {
               <p className="text-gray-600 mb-4">Cloud pipelines for an analytics firm</p>
               <div className="text-sm text-gray-500 mb-4">
                 <div>📍 Remote</div>
-                <div>💰 $130–180/hr</div>
+                <div>💰 $130-180/hr</div>
               </div>
               <a href="#join" className="text-green-600 font-semibold hover:text-green-700">Apply Now →</a>
             </div>
@@ -209,7 +209,7 @@ export default function Home() {
               Swipe left on markup bloat.
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              Traditional staffing costs 30–40% in markup which destroys either client margins or contractor pay. We cap at 20%.
+              Traditional staffing costs 30-40% in markup which destroys either client margins or contractor pay. We cap at 20%.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
               Transparent pricing. Fast delivery. Vetted contractors by senior SMEs.
@@ -233,7 +233,7 @@ export default function Home() {
             </div>
             <div className="bg-white/10 p-6 rounded-lg backdrop-blur">
               <div className="text-3xl mb-3">✓</div>
-              <p className="font-semibold">Conversion fee: 20% ==> 0% over 12 months.</p>
+              <p className="font-semibold">Conversion fee: 20% to 0% over 12 months.</p>
             </div>
             <div className="bg-white/10 p-6 rounded-lg backdrop-blur">
               <div className="text-3xl mb-3">✓</div>
@@ -252,7 +252,7 @@ export default function Home() {
         <div className="section-container">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-              Get your MSA in place — Consulting Firms and MSPs Only
+              Get your MSA in place - Consulting Firms and MSPs Only
             </h2>
             <p className="text-center text-gray-600 mb-12">
               Then swipe left on slow staffing. Send the JD and Proposal/SOW with project description and roles. Get vetted contractors fast.
@@ -282,7 +282,7 @@ export default function Home() {
                 </div>
                 <div>
                   <label className="block text-sm font-semibold mb-2">Target Bill Rate Band</label>
-                  <input type="text" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="$150–$190/hr" />
+                  <input type="text" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="$150-$190/hr" />
                 </div>
               </div>
 
