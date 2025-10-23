@@ -1,292 +1,344 @@
 export default function Home() {
   return (
     <main>
-      {/* Hero Section */}
+      {/* Hero */}
       <section className="bg-gradient-to-br from-green-600 via-green-700 to-green-800 text-white">
         <div className="section-container">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-              Swipe Left on Hiring Headaches.
+              Swipe left on hiring headaches.
             </h1>
             <p className="text-xl md:text-2xl mb-12 text-green-100">
-              AI handles the busywork; we handle the judgment. Faster placements, better fit, and a transparent 20% markup cap.
+              swipeleft ai staffs elite contractors for consulting firms only. AI removes busywork. Senior experts judge fit. 20% markup cap.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="#join" className="bg-white text-green-600 hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl">
-                Join Our Network
+              <a href="#submit-role" className="bg-white text-green-600 hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl">
+                Submit a Role (Firms)
               </a>
-              <a href="#how-it-works" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-green-600 font-semibold py-3 px-8 rounded-lg transition-all duration-200">
-                Learn How It Works
+              <a href="#join" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-green-600 font-semibold py-3 px-8 rounded-lg transition-all duration-200">
+                Join as a Contractor
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* About Section */}
+      {/* About */}
       <section id="about" className="bg-white">
         <div className="section-container">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Expert human judgment. AI efficiency.
+              Contractors for consulting firms. Only.
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              SwipeLeft AI is a lean, Austin-based staffing firm built for the new era of tech consulting. We use automation to remove the repetitive parts of recruiting — sourcing, scheduling, initial screening — so our experts can focus on what matters: people.
+              We automate sourcing, screening, and scheduling so senior practitioners focus on delivery fit. No general hiring. No perm.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              The result is faster delivery of exceptional ServiceNow, AI, Data, and Cloud talent — backed by a transparent <span className="font-bold text-green-600">20% markup cap</span> that beats the industry's 30–40%.
+              ServiceNow, AI/ML, Data, Cloud. Transparent <span className="font-bold text-green-600">20% markup cap</span>.
             </p>
             <p className="text-xl font-semibold text-green-600 mt-8">
-              You'll never pay for overhead or layers, only for quality.
+              Swipe left on overhead. Pay for quality.
             </p>
           </div>
         </div>
       </section>
 
-      
-
-      {/* How It Works for Clients Section */}
-      <section id="how-it-works for candidates " className="bg-gray-50">
+      {/* How It Works — Consulting Firms */}
+      <section id="how-it-works-firms" className="bg-gray-50">
         <div className="section-container">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Hiring Managers: Swipe left on recruiters. Here is the flow.
+              Swipe left on explaining basics to recruiters.
             </h2>
+            <p className="text-gray-600">Talk to senior technologists who know utilization, SOWs, and timelines.</p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl font-bold text-green-600 mb-4">1</div>
-              <h3 className="text-xl font-bold mb-3">List your position</h3>
-              <p className="text-gray-600">Just upload your position description. That's it.</p>
+              <h3 className="text-xl font-bold mb-3">Submit role + SOW</h3>
+              <p className="text-gray-600">Include project description, deliverables, and role requirements with rate band.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl font-bold text-green-600 mb-4">2</div>
-              <h3 className="text-xl font-bold mb-3">Clarification call</h3>
-              <p className="text-gray-600">Review position with senior technical experts, not recruiters</p>
+              <h3 className="text-xl font-bold mb-3">Clarify with experts</h3>
+              <p className="text-gray-600">Lock skills, scope, milestones, and start date with senior SMEs.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl font-bold text-green-600 mb-4">3</div>
-              <h3 className="text-xl font-bold mb-3">Interview qualified candidates</h3>
-              <p className="text-gray-600">Pick the best candidate and get to work</p>
+              <h3 className="text-xl font-bold mb-3">Interview and start</h3>
+              <p className="text-gray-600">Meet vetted contractors and kick off quickly.</p>
             </div>
           </div>
           <div className="text-center mt-12">
-            <a href="#join" className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl inline-block">
-              Get Started
+            <a href="#submit-role" className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl inline-block">
+              Submit a Role
             </a>
           </div>
         </div>
       </section>
 
-      {/* How It Works for Candidates Section */}
-      <section id="how-it-works for candidates " className="bg-gray-50">
+      {/* How It Works — Contractors */}
+      <section id="how-it-works-contractors" className="bg-gray-50">
         <div className="section-container">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Candidates: Swipe left on recruiters. Here is the flow.
+              Swipe left on endless HR loops.
             </h2>
+            <p className="text-gray-600">Scoped consulting projects. Fast starts.</p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-4 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl font-bold text-green-600 mb-4">1</div>
-              <h3 className="text-xl font-bold mb-3">Apply for a position</h3>
-              <p className="text-gray-600">Just upload your resume. That's it.</p>
+              <h3 className="text-xl font-bold mb-3">Apply once</h3>
+              <p className="text-gray-600">Upload resume and portfolio.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl font-bold text-green-600 mb-4">2</div>
-              <h3 className="text-xl font-bold mb-3">AI Pre-Screening</h3>
-              <p className="text-gray-600">Pass your AI-assisted phone interview.</p>
+              <h3 className="text-xl font-bold mb-3">AI pre-screen</h3>
+              <p className="text-gray-600">Map skills to open roles.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl font-bold text-green-600 mb-4">3</div>
-              <h3 className="text-xl font-bold mb-3">Human Expert Interview</h3>
-              <p className="text-gray-600">Interview with senior technical experts, not a recruiter.</p>
+              <h3 className="text-xl font-bold mb-3">Expert interview</h3>
+              <p className="text-gray-600">Senior practitioners only.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl font-bold text-green-600 mb-4">4</div>
-              <h3 className="text-xl font-bold mb-3">Customer Interview</h3>
-              <p className="text-gray-600">Interview with the hiring company</p>
+              <h3 className="text-xl font-bold mb-3">Client interview</h3>
+              <p className="text-gray-600">Consulting firm. Start quickly.</p>
             </div>
           </div>
           <div className="text-center mt-12">
             <a href="#join" className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl inline-block">
-              Get Started
+              Join as a Contractor
             </a>
           </div>
         </div>
       </section>
 
-      {/* For Consultants Section */}
-      <section id="consultants" className="bg-white">
+      {/* Value Props — Contractors */}
+      <section id="contractors" className="bg-white">
         <div className="section-container">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center">
-              Swipe left on endless job hunting.
+              Swipe left on low-value work.
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Work on high-impact AI, automation, and modernization projects without chasing recruiters. Our AI systems surface the roles that match your skills, and a real person makes sure it's the right fit before you meet the client.
+              ServiceNow, AI/ML, Data, Cloud, Automation. Consulting firms and MSPs only.
             </p>
             <div className="grid md:grid-cols-3 gap-6 mt-12">
               <div className="text-center p-6">
                 <div className="text-3xl mb-3">💰</div>
                 <h3 className="font-bold text-lg mb-2">Fair Rates</h3>
-                <p className="text-gray-600">Competitive compensation without the runaround. Industry-leading 20% markup</p>
+                <p className="text-gray-600">Hard 20% client markup cap.</p>
               </div>
               <div className="text-center p-6">
                 <div className="text-3xl mb-3">💬</div>
-                <h3 className="font-bold text-lg mb-2">Clear Communication</h3>
-                <p className="text-gray-600">Speak with management and technical experts, no strange conversations with recruiters</p>
+                <h3 className="font-bold text-lg mb-2">Clear Comms</h3>
+                <p className="text-gray-600">Direct with delivery leads.</p>
               </div>
               <div className="text-center p-6">
                 <div className="text-3xl mb-3">🎯</div>
                 <h3 className="font-bold text-lg mb-2">Meaningful Work</h3>
-                <p className="text-gray-600">High-impact projects that matter</p>
+                <p className="text-gray-600">SOW-driven outcomes.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Open Opportunities Section */}
+      {/* Opportunities */}
       <section id="opportunities" className="bg-gray-50">
         <div className="section-container">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-            Current Contract & Consulting Roles
+            Current Roles for Consulting Firms
           </h2>
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-            Browse active and upcoming roles. We update this list weekly as new projects move into staffing.
+            Sample engagements. Join or submit a role to see all.
           </p>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <span className="bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full">Featured</span>
+              <span className="bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full">Consulting</span>
               <h3 className="text-xl font-bold mt-4 mb-2">AI Consultant</h3>
-              <p className="text-gray-600 mb-4">Enterprise AI implementation and strategy</p>
+              <p className="text-gray-600 mb-4">Enterprise AI advisory + delivery</p>
               <div className="text-sm text-gray-500 mb-4">
                 <div>📍 Remote</div>
-                <div>💰 $150-200/hr</div>
+                <div>💰 $150–200/hr</div>
               </div>
               <a href="#join" className="text-green-600 font-semibold hover:text-green-700">Apply Now →</a>
             </div>
-            
+
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <span className="bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full">Featured</span>
+              <span className="bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full">Consulting</span>
               <h3 className="text-xl font-bold mt-4 mb-2">ServiceNow Developer</h3>
-              <p className="text-gray-600 mb-4">Platform development and integration</p>
+              <p className="text-gray-600 mb-4">Platform build for a global SI</p>
               <div className="text-sm text-gray-500 mb-4">
-                <div>📍 Hybrid - Austin, TX</div>
-                <div>💰 $120-160/hr</div>
+                <div>📍 Hybrid · Austin, TX</div>
+                <div>💰 $120–160/hr</div>
               </div>
               <a href="#join" className="text-green-600 font-semibold hover:text-green-700">Apply Now →</a>
             </div>
-            
+
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <span className="bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full">Featured</span>
+              <span className="bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full">Consulting</span>
               <h3 className="text-xl font-bold mt-4 mb-2">Data Engineer</h3>
-              <p className="text-gray-600 mb-4">Cloud data pipelines and analytics</p>
+              <p className="text-gray-600 mb-4">Cloud pipelines for an analytics firm</p>
               <div className="text-sm text-gray-500 mb-4">
                 <div>📍 Remote</div>
-                <div>💰 $130-180/hr</div>
+                <div>💰 $130–180/hr</div>
               </div>
               <a href="#join" className="text-green-600 font-semibold hover:text-green-700">Apply Now →</a>
             </div>
           </div>
 
           <div className="text-center">
-            <p className="text-gray-600 mb-4">More roles added weekly. Join our network to see all opportunities.</p>
-            <a href="#join" className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl inline-block">
-              View All Opportunities
+            <p className="text-gray-600 mb-4">We staff consulting firms only.</p>
+            <a href="#submit-role" className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl inline-block">
+              Submit a Role (Firms)
             </a>
           </div>
         </div>
       </section>
 
-      {/* For Clients Section */}
+      {/* Clients */}
       <section id="clients" className="bg-white">
         <div className="section-container">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl md:text-5xl font-bold mb-8">
               Swipe left on markup bloat.
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              Traditional staffing firms charge 30–40% markups to cover layers of overhead. SwipeLeft AI runs lean — AI behind the scenes, experienced consultants up front — so your total markup never exceeds 20%.
+              Traditional staffing costs 30–40% in markup. We cap at 20%.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              You get transparent pricing, rapid delivery, and quality talent personally vetted by industry experts.
+              Transparent pricing. Fast delivery. Vetted contractors by senior SMEs.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Transparency Promise */}
+      {/* Transparency */}
       <section className="bg-green-600 text-white">
         <div className="section-container">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-8">
               Our Transparency Promise
             </h2>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-white/10 p-6 rounded-lg backdrop-blur">
-                <div className="text-3xl mb-3">✓</div>
-                <p className="font-semibold">Flat 20% maximum markup</p>
-              </div>
-              <div className="bg-white/10 p-6 rounded-lg backdrop-blur">
-                <div className="text-3xl mb-3">✓</div>
-                <p className="font-semibold">No hidden fees or conversion charges</p>
-              </div>
-              <div className="bg-white/10 p-6 rounded-lg backdrop-blur">
-                <div className="text-3xl mb-3">✓</div>
-                <p className="font-semibold">Automated efficiency without automation bias</p>
-              </div>
-              <div className="bg-white/10 p-6 rounded-lg backdrop-blur">
-                <div className="text-3xl mb-3">✓</div>
-                <p className="font-semibold">Every candidate personally interviewed and approved</p>
-              </div>
+          </div>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-white/10 p-6 rounded-lg backdrop-blur">
+              <div className="text-3xl mb-3">✓</div>
+              <p className="font-semibold">Flat 20% maximum markup</p>
+            </div>
+            <div className="bg-white/10 p-6 rounded-lg backdrop-blur">
+              <div className="text-3xl mb-3">✓</div>
+              <p className="font-semibold">No conversion fees or hidden charges</p>
+            </div>
+            <div className="bg-white/10 p-6 rounded-lg backdrop-blur">
+              <div className="text-3xl mb-3">✓</div>
+              <p className="font-semibold">Automation where it helps, humans where it counts</p>
+            </div>
+            <div className="bg-white/10 p-6 rounded-lg backdrop-blur">
+              <div className="text-3xl mb-3">✓</div>
+              <p className="font-semibold">Every contractor interviewed by senior SMEs</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Join Network Section */}
+      {/* Submit Role (Firms) */}
+      <section id="submit-role" className="bg-white">
+        <div className="section-container">
+          <div className="max-w-2xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
+              Submit a Role — Consulting Firms Only
+            </h2>
+            <p className="text-center text-gray-600 mb-12">
+              Swipe left on slow staffing. Send the JD and SOW with project description and roles. Get vetted contractors fast.
+            </p>
+
+            <form className="bg-gray-50 p-8 rounded-xl shadow-lg space-y-6">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <label className="block text-sm font-semibold mb-2">Company</label>
+                  <input type="text" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="Your Consulting Firm" />
+                </div>
+                <div>
+                  <label className="block text-sm font-semibold mb-2">Contact Email</label>
+                  <input type="email" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="you@firm.com" />
+                </div>
+              </div>
+
+              <div>
+                <label className="block text-sm font-semibold mb-2">Role Title</label>
+                <input type="text" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="e.g., ServiceNow Developer" />
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <label className="block text-sm font-semibold mb-2">Location</label>
+                  <input type="text" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="Remote / City, State" />
+                </div>
+                <div>
+                  <label className="block text-sm font-semibold mb-2">Target Bill Rate Band</label>
+                  <input type="text" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="$150–$190/hr" />
+                </div>
+              </div>
+
+              <div>
+                <label className="block text-sm font-semibold mb-2">SOW / Key Deliverables</label>
+                <textarea className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" rows={4} placeholder="Project description, roles needed, core skills, milestones, start date"></textarea>
+              </div>
+
+              <button type="submit" className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl w-full">
+                Submit Role
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      {/* Join Contractor Network */}
       <section id="join" className="bg-gray-50">
         <div className="section-container">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-              One Application — Infinite Opportunities
+              Join Our Contractor Network
             </h2>
             <p className="text-center text-gray-600 mb-12">
-              Apply once, and we'll match you to roles that fit your skills and goals. Our AI pre-screens your background so you spend less time chasing work.
+              Swipe left on job-hunt noise. One application. Consulting projects only.
             </p>
-            
+
             <form className="bg-white p-8 rounded-xl shadow-lg space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-semibold mb-2">Full Name</label>
-                  <input type="text" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="John Doe" />
+                  <input type="text" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="Jane Doe" />
                 </div>
                 <div>
                   <label className="block text-sm font-semibold mb-2">Email</label>
-                  <input type="email" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="john@example.com" />
+                  <input type="email" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="jane@example.com" />
                 </div>
               </div>
-              
+
               <div>
                 <label className="block text-sm font-semibold mb-2">LinkedIn Profile</label>
                 <input type="url" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="linkedin.com/in/yourprofile" />
               </div>
-              
+
               <div>
                 <label className="block text-sm font-semibold mb-2">Primary Skills</label>
                 <select className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent">
                   <option>Select your primary expertise</option>
+                  <option>ServiceNow</option>
                   <option>AI & Machine Learning</option>
-                  <option>ServiceNow Development</option>
                   <option>Data Engineering</option>
                   <option>Cloud Engineering</option>
                   <option>DevOps & Automation</option>
                 </select>
               </div>
-              
+
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-semibold mb-2">Desired Hourly Rate</label>
@@ -294,42 +346,40 @@ export default function Home() {
                 </div>
                 <div>
                   <label className="block text-sm font-semibold mb-2">Availability Date</label>
-                  <input type="date" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" />
+                  <input type="date" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus-border-transparent" />
                 </div>
               </div>
-              
+
               <div>
                 <label className="block text-sm font-semibold mb-2">Resume Upload</label>
                 <input type="file" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" />
               </div>
-              
+
               <div>
-                <label className="block text-sm font-semibold mb-2">Have you worked as a consultant before?</label>
+                <label className="block text-sm font-semibold mb-2">Consulting Experience</label>
                 <div className="flex gap-6">
                   <label className="flex items-center">
-                    <input type="radio" name="consultant" value="yes" className="mr-2" />
+                    <input type="radio" name="consulting-exp" value="yes" className="mr-2" />
                     Yes
                   </label>
                   <label className="flex items-center">
-                    <input type="radio" name="consultant" value="no" className="mr-2" />
+                    <input type="radio" name="consulting-exp" value="no" className="mr-2" />
                     No
                   </label>
                 </div>
               </div>
-              
+
               <button type="submit" className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl w-full">
                 Submit & Get Screened
               </button>
-              
+
               <p className="text-sm text-gray-500 text-center">
-                Thanks — you're in the pipeline! You'll receive a link to schedule your quick AI technical interview.
+                You’ll get a link to schedule a quick AI technical interview.
               </p>
             </form>
           </div>
         </div>
       </section>
-
-      
     </main>
   )
 }
