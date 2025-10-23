@@ -346,7 +346,7 @@ export default function Home() {
                 </div>
                 <div>
                   <label className="block text-sm font-semibold mb-2">Availability Date</label>
-                  <input type="date" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus-border-transparent" />
+                  <input type="date" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" />
                 </div>
               </div>
 
@@ -374,7 +374,7 @@ export default function Home() {
               </button>
 
               <p className="text-sm text-gray-500 text-center">
-                You’ll get a link to schedule a quick AI technical interview.
+                You'll get a link to schedule a quick AI technical interview.
               </p>
             </form>
           </div>

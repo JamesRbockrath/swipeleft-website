@@ -2,7 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'swipeleft ai — Contractors for Consulting Firms',
+  title: 'swipeleft ai - Contractors for Consulting Firms',
   description:
     'Swipe left on hiring headaches. We staff elite contractors for consulting firms only. AI handles the busywork; senior experts handle the judgment. Transparent 20% markup cap.',
 }
@@ -23,14 +23,14 @@ export default function RootLayout({
             <div className="flex justify-between items-center h-48 sm:h-56">
               {/* Logo */}
               <div className="flex items-center">
-                
+                <a
                   href="/"
                   className="flex items-center"
                   aria-label="swipeleft ai home"
                 >
                   <img
                     src="/logo.png"
-                    alt="swipeleft ai — contractors for consulting firms"
+                    alt="swipeleft ai - contractors for consulting firms"
                     className="h-40 sm:h-48 md:h-52 w-auto"
                   />
                 </a>
@@ -38,25 +38,25 @@ export default function RootLayout({
 
               {/* Navigation */}
               <div className="hidden md:flex items-center space-x-10">
-                
+                <a
                   href="#how-it-works-firms"
                   className="text-gray-700 hover:text-green-600 transition font-medium"
                 >
                   How It Works
                 </a>
-                
+                <a
                   href="#opportunities"
                   className="text-gray-700 hover:text-green-600 transition font-medium"
                 >
                   Opportunities
                 </a>
-                
+                <a
                   href="#about"
                   className="text-gray-700 hover:text-green-600 transition font-medium"
                 >
                   About
                 </a>
-                
+                <a
                   href="#join"
                   className="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition font-semibold"
                 >
@@ -90,7 +90,7 @@ export default function RootLayout({
                 <h4 className="font-semibold mb-4">Quick Links</h4>
                 <ul className="space-y-2 text-gray-400">
                   <li>
-                    
+                    <a
                       href="#how-it-works-firms"
                       className="hover:text-white transition"
                     >
@@ -98,7 +98,7 @@ export default function RootLayout({
                     </a>
                   </li>
                   <li>
-                    
+                    <a
                       href="#opportunities"
                       className="hover:text-white transition"
                     >
@@ -117,7 +117,7 @@ export default function RootLayout({
                 <h4 className="font-semibold mb-4">Contact</h4>
                 <p className="text-gray-400">Austin, TX</p>
                 <p className="text-gray-400">
-                  
+                  <a
                     href="mailto:info@swipeleft.ai"
                     className="hover:text-white transition"
                   >
