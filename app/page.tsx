@@ -135,7 +135,10 @@ export default function Home() {
                 <h3 className="font-bold text-lg mb-2">Clear Communication</h3>
                 <p className="text-gray-600">Speak with management and technical experts, no strange conversations with recruiters</p>
               </div>
-              
+              <div className="text-center p-6">
+                <div className="text-3xl mb-3">🎯</div>
+                <h3 className="font-bold text-lg mb-2">Meaningful Work</h3>
+                <p className="text-gray-600">High-impact projects that matter</p>
               </div>
             </div>
           </div>
