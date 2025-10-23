@@ -2,9 +2,9 @@ import './globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'SwipeLeft AI - Human Judgment. AI Efficiency.',
+  title: 'swipeleft ai — Contractors for Consulting Firms',
   description:
-    'Swipe left on hiring headaches. AI handles the busywork; we handle the judgment. Faster placements, better fit, and a transparent 20% markup cap.',
+    'Swipe left on hiring headaches. We staff elite contractors for consulting firms only. AI handles the busywork; senior experts handle the judgment. Transparent 20% markup cap.',
 }
 
 export default function RootLayout({
@@ -15,24 +15,24 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-sans">
-        <nav className="bg-white shadow-sm sticky top-0 z-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <header className="bg-white/95 backdrop-blur shadow-sm sticky top-0 z-50">
+          <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Primary">
             <div className="flex justify-between items-center h-40 sm:h-48">
               {/* Logo (2x size) */}
               <div className="flex items-center">
-                <a href="/" className="flex items-center">
+                <a href="/" className="flex items-center" aria-label="swipeleft ai home">
                   <img
                     src="/logo.png"
-                    alt="SwipeLeft AI - Recruiting & Staffing"
+                    alt="swipeleft ai — contractors for consulting firms"
                     className="h-32 sm:h-36 md:h-40 w-auto"
                   />
                 </a>
               </div>
 
               {/* Navigation */}
-              <div className="hidden md:flex space-x-10">
+              <div className="hidden md:flex items-center space-x-10">
                 <a
-                  href="#how-it-works"
+                  href="#how-it-works-firms"
                   className="text-gray-700 hover:text-green-600 transition font-medium"
                 >
                   How It Works
@@ -57,8 +57,8 @@ export default function RootLayout({
                 </a>
               </div>
             </div>
-          </div>
-        </nav>
+          </nav>
+        </header>
 
         {children}
 
@@ -69,12 +69,12 @@ export default function RootLayout({
                 <div className="mb-6">
                   <img
                     src="/logo.png"
-                    alt="SwipeLeft AI"
+                    alt="swipeleft ai"
                     className="h-24 sm:h-28 md:h-32 w-auto brightness-0 invert"
                   />
                 </div>
                 <p className="text-gray-400">
-                  Human Judgment. AI Efficiency. Transparent Pricing.
+                  Human judgment. AI efficiency. Transparent pricing.
                 </p>
               </div>
 
@@ -82,7 +82,7 @@ export default function RootLayout({
                 <h4 className="font-semibold mb-4">Quick Links</h4>
                 <ul className="space-y-2 text-gray-400">
                   <li>
-                    <a href="#how-it-works" className="hover:text-white transition">
+                    <a href="#how-it-works-firms" className="hover:text-white transition">
                       How It Works
                     </a>
                   </li>
@@ -102,12 +102,16 @@ export default function RootLayout({
               <div>
                 <h4 className="font-semibold mb-4">Contact</h4>
                 <p className="text-gray-400">Austin, TX</p>
-                <p className="text-gray-400">info@swipeleft.ai</p>
+                <p className="text-gray-400">
+                  <a href="mailto:info@swipeleft.ai" className="hover:text-white transition">
+                    info@swipeleft.ai
+                  </a>
+                </p>
               </div>
             </div>
 
             <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-              <p>© 2025 SwipeLeft AI LLC | Austin, Texas</p>
+              <p>© 2025 SwipeLeft AI LLC · Austin, Texas</p>
             </div>
           </div>
         </footer>
