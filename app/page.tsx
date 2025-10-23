@@ -55,8 +55,8 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl font-bold text-green-600 mb-4">1</div>
-              <h3 className="text-xl font-bold mb-3">Submit role + SOW</h3>
-              <p className="text-gray-600">Include project description, deliverables, and role requirements with rate band.</p>
+              <h3 className="text-xl font-bold mb-3">Submit role + project proposal</h3>
+              <p className="text-gray-600">Include project description, SOW, and role requirements with rate band.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl font-bold text-green-600 mb-4">2</div>
@@ -71,7 +71,7 @@ export default function Home() {
           </div>
           <div className="text-center mt-12">
             <a href="#submit-role" className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl inline-block">
-              Submit a Role
+              Start your search
             </a>
           </div>
         </div>
@@ -209,7 +209,7 @@ export default function Home() {
               Swipe left on markup bloat.
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              Traditional staffing costs 30–40% in markup which destroys either margins or contractor pay. We cap at 20%.
+              Traditional staffing costs 30–40% in markup which destroys either client margins or contractor pay. We cap at 20%.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
               Transparent pricing. Fast delivery. Vetted contractors by senior SMEs.
@@ -233,7 +233,7 @@ export default function Home() {
             </div>
             <div className="bg-white/10 p-6 rounded-lg backdrop-blur">
               <div className="text-3xl mb-3">✓</div>
-              <p className="font-semibold">No conversion fees or hidden charges</p>
+              <p className="font-semibold">Conversion fee: 20% ==> 0% over 12 months.</p>
             </div>
             <div className="bg-white/10 p-6 rounded-lg backdrop-blur">
               <div className="text-3xl mb-3">✓</div>
@@ -252,10 +252,10 @@ export default function Home() {
         <div className="section-container">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-              Submit a Role — Consulting Firms Only
+              Get your MSA in place — Consulting Firms and MSPs Only
             </h2>
             <p className="text-center text-gray-600 mb-12">
-              Swipe left on slow staffing. Send the JD and SOW with project description and roles. Get vetted contractors fast.
+              Then swipe left on slow staffing. Send the JD and Proposal/SOW with project description and roles. Get vetted contractors fast.
             </p>
 
             <form className="bg-gray-50 p-8 rounded-xl shadow-lg space-y-6">
