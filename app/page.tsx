@@ -48,7 +48,7 @@ export default function Home() {
         <div className="section-container">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Swipe left on explaining basics to recruiters.
+              Clients: Swipe left on explaining basics to recruiters.
             </h2>
             <p className="text-gray-600">Talk to senior staff who know consulting: utilization, margins, SOWs, and client perceptions.</p>
           </div>
@@ -82,7 +82,7 @@ export default function Home() {
         <div className="section-container">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Swipe left on endless HR loops, and talking with recruiters who have never built anything
+              Contractors: Swipe left on endless HR loops and English-major recruiters
             </h2>
             <p className="text-gray-600">Scoped consulting projects. Fast starts.</p>
           </div>
@@ -139,7 +139,7 @@ export default function Home() {
               </div>
               <div className="text-center p-6">
                 <div className="text-3xl mb-3">🎯</div>
-                <h3 className="font-bold text-lg mb-2">Meaningful Work</h3>
+                <h3 className="font-bold text-lg mb-2">Targeted Work</h3>
                 <p className="text-gray-600">SOW-driven outcomes.</p>
               </div>
             </div>
@@ -209,7 +209,7 @@ export default function Home() {
               Swipe left on markup bloat.
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              Traditional staffing costs 30–40% in markup which destroy client margins or cut pay to contractors. We cap at 20%.
+              Traditional staffing costs 30–40% in markup which destroys either margins or contractor pay. We cap at 20%.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
               Transparent pricing. Fast delivery. Vetted contractors by senior SMEs.
