@@ -16,14 +16,14 @@ export default function RootLayout({
       <body className="font-sans">
         <nav className="bg-white shadow-sm sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-60">
+            <div className="flex justify-between items-center h-44">
               {/* ↑ Changed from h-20 to h-36 to fit bigger logo */}
               <div className="flex items-center">
                 <a href="/" className="flex items-center">
                   <img 
                     src="/logo.png" 
                     alt="SwipeLeft AI - Recruiting & Staffing" 
-                    className="h-58 w-auto"
+                    className="h-44 w-auto"
                   />
                 </a>
               </div>
@@ -45,7 +45,7 @@ export default function RootLayout({
                   <img 
                     src="/logo.png" 
                     alt="SwipeLeft AI" 
-                    className="h-58 w-auto brightness-0 invert"
+                    className="h-46 w-auto brightness-0 invert"
                   />
                 </div>
                 <p className="text-gray-400">Human Judgment. AI Efficiency. Transparent Pricing.</p>
