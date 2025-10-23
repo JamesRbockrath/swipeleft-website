@@ -209,7 +209,7 @@ export default function Home() {
               Swipe left on markup bloat.
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              Traditional staffing costs 30–40% in markup. We cap at 20%.
+              Traditional staffing costs 30–40% in markup which destroy client margins or cut pay to contractors. We cap at 20%.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
               Transparent pricing. Fast delivery. Vetted contractors by senior SMEs.
@@ -237,7 +237,7 @@ export default function Home() {
             </div>
             <div className="bg-white/10 p-6 rounded-lg backdrop-blur">
               <div className="text-3xl mb-3">✓</div>
-              <p className="font-semibold">Automation where it helps, humans where it counts</p>
+              <p className="font-semibold">Automation where it helps, experienced humans where it counts</p>
             </div>
             <div className="bg-white/10 p-6 rounded-lg backdrop-blur">
               <div className="text-3xl mb-3">✓</div>
