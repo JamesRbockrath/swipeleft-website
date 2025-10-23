@@ -9,7 +9,7 @@ export default function Home() {
               Swipe left on hiring headaches.
             </h1>
             <p className="text-xl md:text-2xl mb-12 text-green-100">
-              swipeleft ai staffs elite contractors for consulting firms only. AI removes busywork. Senior experts judge fit. 20% markup cap.
+              Swipeleft staffs elite contractors for consulting firms only. AI removes busywork. Our experts judge fit. Industry-leading and transparent 20% markup cap.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="#submit-role" className="bg-white text-green-600 hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl">
@@ -31,7 +31,7 @@ export default function Home() {
               Contractors for consulting firms. Only.
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              We automate sourcing, screening, and scheduling so senior practitioners focus on delivery fit. No general hiring. No perm.
+              We automate sourcing, screening, and scheduling so our senior practitioners focus securing the best 1099 contractors. No W2s, no retained searches.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
               ServiceNow, AI/ML, Data, Cloud. Transparent <span className="font-bold text-green-600">20% markup cap</span>.
@@ -50,7 +50,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               Swipe left on explaining basics to recruiters.
             </h2>
-            <p className="text-gray-600">Talk to senior technologists who know utilization, SOWs, and timelines.</p>
+            <p className="text-gray-600">Talk to senior staff who know consulting: utilization, margins, SOWs, and client perceptions.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-lg">
@@ -61,7 +61,7 @@ export default function Home() {
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl font-bold text-green-600 mb-4">2</div>
               <h3 className="text-xl font-bold mb-3">Clarify with experts</h3>
-              <p className="text-gray-600">Lock skills, scope, milestones, and start date with senior SMEs.</p>
+              <p className="text-gray-600">Lock skills, scope, milestones, personality, and start date with senior SMEs.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl font-bold text-green-600 mb-4">3</div>
@@ -82,7 +82,7 @@ export default function Home() {
         <div className="section-container">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Swipe left on endless HR loops.
+              Swipe left on endless HR loops, and talking with recruiters who have never built anything
             </h2>
             <p className="text-gray-600">Scoped consulting projects. Fast starts.</p>
           </div>
@@ -94,18 +94,18 @@ export default function Home() {
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl font-bold text-green-600 mb-4">2</div>
-              <h3 className="text-xl font-bold mb-3">AI pre-screen</h3>
+              <h3 className="text-xl font-bold mb-3">Complete AI pre-screen</h3>
               <p className="text-gray-600">Map skills to open roles.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl font-bold text-green-600 mb-4">3</div>
               <h3 className="text-xl font-bold mb-3">Expert interview</h3>
-              <p className="text-gray-600">Senior practitioners only.</p>
+              <p className="text-gray-600">With senior practitioners only.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl font-bold text-green-600 mb-4">4</div>
               <h3 className="text-xl font-bold mb-3">Client interview</h3>
-              <p className="text-gray-600">Consulting firm. Start quickly.</p>
+              <p className="text-gray-600">Meet the hiring manager. Start quickly.</p>
             </div>
           </div>
           <div className="text-center mt-12">
