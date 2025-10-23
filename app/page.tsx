@@ -28,7 +28,7 @@ export default function Home() {
         <div className="section-container">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Human judgment. AI efficiency.
+              Expert human judgment. AI efficiency.
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               SwipeLeft AI is a lean, Austin-based staffing firm built for the new era of tech consulting. We use automation to remove the repetitive parts of recruiting — sourcing, scheduling, initial screening — so our experts can focus on what matters: people.
@@ -39,6 +39,41 @@ export default function Home() {
             <p className="text-xl font-semibold text-green-600 mt-8">
               You'll never pay for overhead or layers, only for quality.
             </p>
+          </div>
+        </div>
+      </section>
+
+      
+
+      {/* How It Works for Clients Section */}
+      <section id="how-it-works for candidates " className="bg-gray-50">
+        <div className="section-container">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              Hiring Managers: Swipe left on recruiters. Here is the flow.
+            </h2>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="bg-white p-8 rounded-xl shadow-lg">
+              <div className="text-4xl font-bold text-green-600 mb-4">1</div>
+              <h3 className="text-xl font-bold mb-3">List your position</h3>
+              <p className="text-gray-600">Just upload your position description. That's it.</p>
+            </div>
+            <div className="bg-white p-8 rounded-xl shadow-lg">
+              <div className="text-4xl font-bold text-green-600 mb-4">2</div>
+              <h3 className="text-xl font-bold mb-3">Clarification call</h3>
+              <p className="text-gray-600">Review position with senior technical experts, not recruiters</p>
+            </div>
+            <div className="bg-white p-8 rounded-xl shadow-lg">
+              <div className="text-4xl font-bold text-green-600 mb-4">3</div>
+              <h3 className="text-xl font-bold mb-3">Interview qualified candidates</h3>
+              <p className="text-gray-600">Pick the best candidate and get to work</p>
+            </div>
+          </div>
+          <div className="text-center mt-12">
+            <a href="#join" className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl inline-block">
+              Get Started
+            </a>
           </div>
         </div>
       </section>
@@ -71,39 +106,6 @@ export default function Home() {
               <div className="text-4xl font-bold text-green-600 mb-4">4</div>
               <h3 className="text-xl font-bold mb-3">Customer Interview</h3>
               <p className="text-gray-600">Interview with the hiring company</p>
-            </div>
-          </div>
-          <div className="text-center mt-12">
-            <a href="#join" className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl inline-block">
-              Get Started
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* How It Works for Clients Section */}
-      <section id="how-it-works for candidates " className="bg-gray-50">
-        <div className="section-container">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Hiring Managers: Swipe left on recruiters. Here is the flow.
-            </h2>
-          </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-white p-8 rounded-xl shadow-lg">
-              <div className="text-4xl font-bold text-green-600 mb-4">1</div>
-              <h3 className="text-xl font-bold mb-3">List your position</h3>
-              <p className="text-gray-600">Just upload your position description. That's it.</p>
-            </div>
-            <div className="bg-white p-8 rounded-xl shadow-lg">
-              <div className="text-4xl font-bold text-green-600 mb-4">2</div>
-              <h3 className="text-xl font-bold mb-3">Clarification call</h3>
-              <p className="text-gray-600">Review position with senior technical experts, not recruiters</p>
-            </div>
-            <div className="bg-white p-8 rounded-xl shadow-lg">
-              <div className="text-4xl font-bold text-green-600 mb-4">3</div>
-              <h3 className="text-xl font-bold mb-3">Interview qualified candidates</h3>
-              <p className="text-gray-600">Pick the best candidate and get to work</p>
             </div>
           </div>
           <div className="text-center mt-12">
