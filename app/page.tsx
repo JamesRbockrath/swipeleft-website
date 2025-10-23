@@ -327,37 +327,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Resources Section */}
-      <section className="bg-white">
-        <div className="section-container">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-            Smart Tools for Independent Consultants
-          </h2>
-          <p className="text-center text-gray-600 mb-12">
-            Insights and resources to help you succeed
-          </p>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3">How AI Is Changing Technical Recruiting</h3>
-              <p className="text-gray-600 mb-4">Discover how automation is reshaping the staffing landscape.</p>
-              <a href="#" className="text-green-600 font-semibold hover:text-green-700">Read More →</a>
-            </div>
-            
-            <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3">Top 5 Ways to Raise Your Bill Rate</h3>
-              <p className="text-gray-600 mb-4">Proven strategies to increase your consulting rates.</p>
-              <a href="#" className="text-green-600 font-semibold hover:text-green-700">Read More →</a>
-            </div>
-            
-            <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3">Contractor Checklists</h3>
-              <p className="text-gray-600 mb-4">Taxes, invoices, and tools that save time.</p>
-              <a href="#" className="text-green-600 font-semibold hover:text-green-700">Read More →</a>
-            </div>
-          </div>
-        </div>
-      </section>
+      
     </main>
   )
 }
