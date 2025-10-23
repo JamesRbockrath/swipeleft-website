@@ -22,7 +22,7 @@ export default function RootLayout({
                   <img 
                     src="/logo.png" 
                     alt="SwipeLeft AI - Recruiting & Staffing" 
-                    className="h-16 w-auto"
+                    className="h-24 w-auto"
                   />
                 </a>
               </div>
@@ -44,7 +44,7 @@ export default function RootLayout({
                   <img 
                     src="/logo.png" 
                     alt="SwipeLeft AI" 
-                    className="h-12 w-auto brightness-0 invert"
+                    className="h-16 w-auto brightness-0 invert"
                   />
                 </div>
                 <p className="text-gray-400">Human Judgment. AI Efficiency. Transparent Pricing.</p>

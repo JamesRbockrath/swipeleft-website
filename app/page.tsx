@@ -60,12 +60,12 @@ export default function Home() {
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl font-bold text-green-600 mb-4">2</div>
               <h3 className="text-xl font-bold mb-3">AI Pre-Screening</h3>
-              <p className="text-gray-600">Automation short-lists qualified experts in hours, not weeks.</p>
+              <p className="text-gray-600">AI agents short-list qualified experts in days, not weeks.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl font-bold text-green-600 mb-4">3</div>
               <h3 className="text-xl font-bold mb-3">Human Review</h3>
-              <p className="text-gray-600">Every candidate is  interviewed and approved by an expert, not a recruiter.</p>
+              <p className="text-gray-600">Short list is interviewed by a expert, not a recruiter.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl font-bold text-green-600 mb-4">4</div>
