@@ -13,7 +13,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="#submit-role" className="bg-white text-green-600 hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl">
-                Submit a Role (Firms)
+                Start a Discussion (Firms)
               </a>
               <a href="#join" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-green-600 font-semibold py-3 px-8 rounded-lg transition-all duration-200">
                 Join as a Contractor
@@ -82,7 +82,7 @@ export default function Home() {
         <div className="section-container">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Contractors: Swipe left on endless HR loops and English-major recruiters
+              Contractors: Swipe left on endless HR loops and non-technical recruiters
             </h2>
             <p className="text-gray-600">Scoped consulting projects. Fast starts.</p>
           </div>
