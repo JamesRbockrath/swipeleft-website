@@ -71,7 +71,7 @@ export default function Home() {
           </div>
           <div className="text-center mt-12">
             <a href="#submit-role" className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl inline-block">
-              Start your search
+              Start a discussion
             </a>
           </div>
         </div>
@@ -82,14 +82,14 @@ export default function Home() {
         <div className="section-container">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Contractors: Swipe left on endless HR loops and non-technical recruiters
+              Contractors: Swipe left on non-technical recruiters
             </h2>
             <p className="text-gray-600">Scoped consulting projects. Fast starts.</p>
           </div>
           <div className="grid md:grid-cols-4 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl font-bold text-green-600 mb-4">1</div>
-              <h3 className="text-xl font-bold mb-3">Apply once</h3>
+              <h3 className="text-xl font-bold mb-3">Apply</h3>
               <p className="text-gray-600">Upload resume and portfolio.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
@@ -99,7 +99,7 @@ export default function Home() {
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl font-bold text-green-600 mb-4">3</div>
-              <h3 className="text-xl font-bold mb-3">Expert interview</h3>
+              <h3 className="text-xl font-bold mb-3">Complete expert interview</h3>
               <p className="text-gray-600">With senior practitioners only.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
