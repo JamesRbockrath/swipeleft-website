@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import {
   DocumentTextIcon,
@@ -36,7 +36,7 @@ interface TimesheetEntry {
   notes?: string;
 }
 
-export default function TimesheetsPage() {
+function TimesheetsPage() {
   const searchParams = useSearchParams();
   const statusFilter = searchParams?.get('status');
 
@@ -348,5 +348,12 @@ export default function TimesheetsPage() {
         )}
       </div>
     </div>
+  );
+}
+export default function TimesheetsPageWrapper() {
+  return (
+    <Suspense fallback={<div className="p-8">Loading...</div>}>
+      <TimesheetsPage />
+    </Suspense>
   );
 }
